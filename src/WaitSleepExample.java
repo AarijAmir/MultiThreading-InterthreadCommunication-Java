@@ -87,7 +87,7 @@ public class WaitSleepExample {
 
         ProducerThread producer = new ProducerThread(buffer);
         ConsumerThread consumer = new ConsumerThread(buffer);
-        System.out.println("Before Thread Starting");
+        System.out.println("Before Thread Starting...");
         producer.start();
         consumer.start();
     }
